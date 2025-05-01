@@ -59,3 +59,89 @@
 </body>
 </html>
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1e3a5f; /* כחול כהה */
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+section#home {
+    text-align: center;
+    background-color: #e3f2fd; /* כחול בהיר */
+}
+
+h1, h2 {
+    color: #1e3a5f; /* כחול כהה */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1e3a5f; /* כחול כהה */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0d2d4b; /* כחול כהה יותר */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e3a5f; /* כחול כהה */
+    color: white;
+}
